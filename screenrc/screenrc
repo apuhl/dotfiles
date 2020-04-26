@@ -134,6 +134,20 @@ bind ^] paste [.]
 # default windows
 #
 
+screen -t Shell1  1 bash
+screen -t Shell2  2 bash
+screen -t Shell3  3 bash
+screen -t Shell4  4 bash
+screen -t Shell5  5 bash
+screen -t Shell6  6 bash
+screen -t Shell7  7 bash
+screen -t Shell8  8 bash
+screen -t Shell9  9 bash
+screen -t Shell10 10 bash
+select 1
+bind c screen 1 # window numbering starts at 1 not 0
+bind 0 select 10
+
 # screen -t local 0
 # screen -t mail 1 elm
 # screen -t 40 2 rlogin faui40
