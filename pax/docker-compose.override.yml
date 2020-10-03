@@ -1,0 +1,7 @@
+version: "3"
+services:
+  compiler:
+    privileged: true
+    devices:
+        - "/dev/ttyPos0:/dev/ttyPos0"
+    network_mode: host
