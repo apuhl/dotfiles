@@ -134,16 +134,16 @@ bind ^] paste [.]
 # default windows
 #
 
-screen -t Shell1  1 bash
-screen -t Shell2  2 bash
-screen -t Shell3  3 bash
-screen -t Shell4  4 bash
-screen -t Shell5  5 bash
-screen -t Shell6  6 bash
-screen -t Shell7  7 bash
-screen -t Shell8  8 bash
-screen -t Shell9  9 bash
-screen -t Shell10 10 bash
+screen -t Shell1  1 zsh
+screen -t Shell2  2 zsh
+screen -t Shell3  3 zsh
+screen -t Shell4  4 zsh
+screen -t Shell5  5 zsh
+#screen -t Shell6  6 zsh
+#screen -t Shell7  7 zsh
+#screen -t Shell8  8 zsh
+#screen -t Shell9  9 zsh
+#screen -t Shell10 10 zsh
 select 1
 bind c screen 1 # window numbering starts at 1 not 0
 bind 0 select 10
